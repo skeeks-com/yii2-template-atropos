@@ -1,57 +1,38 @@
-Шаблон atropos
+Atropos - Responsive Website Template
 ===================================
 
-Информация
+Buy a license to use the template!!!
 -------------------
+https://wrapbootstrap.com/theme/atropos-responsive-website-template-WB05SR527
 
-Это просто нетронутый шаблон купленный тут http://wrapbootstrap.com/preview/WB05SR527
-И оформленный для работы с yii2 проектами
-
-Установка
+Install
 ------------
+Either run
 
-1) Добавить в `composer.json` файл проекта.
+```
+php composer.phar require skeeks/yii2-template-atropos "*"
+```
+
+or add
 
 ```
 "skeeks/yii2-template-atropos": "*"
 ```
 
+Information
+-------------------
 
-Пример использования
-------------
-
-Решение оформлено для работы с yii2 проектами. Для использования в проекте создается собственный AssetBoundle который наследуется от родительского skeeks\template\smarty\SmartyAsset и набираются нужные файлы css и js.
-Ну а html разметка за разработчиком.
-
-```php
-
-<?php
-namespace frontend\assets;
-
-use skeeks\template\atropos\AtroposAsset;
-
-/**
- * Class CubeAsset
- * @package frontend\assets
- */
-class AtroposAsset extends CubeAsset
-{
-    public $css = [
-        'https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700',
-        'css/essentials.css',
-        'css/layout.css',
-        'css/header-1.css',
-        'css/color_scheme/green.css',
-    ];
-
-    public $js = [
-        //'js/scripts.js',
-    ];
-}
+About the connection and use of this template, see here:
+http://skeeks.com/blog/programming/211-kak-podklyuchit-shablon-k-proektu
 
 
-```
+Changelog
+------------------
+-
 
-> [![skeeks!](https://gravatar.com/userimage/74431132/13d04d83218593564422770b616e5622.jpg)](http://www.skeeks.com)
-<i>Быстро, просто, эффективно</i>
-[cms.skeeks.com](http://cms.skeeks.com)
+
+> [![skeeks!](https://gravatar.com/userimage/74431132/13d04d83218593564422770b616e5622.jpg)](http://skeeks.com)  
+<i>SkeekS CMS (Yii2) — fast, simple, effective!</i>  
+[skeeks.com](http://skeeks.com) | [cms.skeeks.com](http://cms.skeeks.com) | [marketplace.cms.skeeks.com](http://marketplace.cms.skeeks.com)
+
+
